@@ -1,8 +1,2 @@
-
-s1 = "Corovan"
-
-s2 = "Vorona"
-
-s = s2.replace("Corovan", "Vorona")
-
-print(s)
+# Format string
+print("{:0>6d} {} {:b} {:0<5}".format(12, "Василий", 54, 32.1))

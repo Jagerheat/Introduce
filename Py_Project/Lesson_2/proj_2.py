@@ -1,9 +1,8 @@
 
-s1 = "Sergey"
+s1 = "Corovan"
 
-s2 = "Saturday"
+s2 = "Vorona"
 
-name = s1
-day = s2
+s = s2.replace("Corovan", "Vorona")
 
-print(f'Good day {name}, {day} is a perfect day to learn some python.')
+print(s)
