@@ -1,3 +1,5 @@
- def cher(s):
-    return s[:2] + s[-2:] if len(s) >= 2 else ''
-print(cher("step"))
+strl = input("Get string:")
+if len(strl) < 2:
+ 	print(None)
+else:
+	print("Take string:", (strl[0:2] + strl[-2:]
