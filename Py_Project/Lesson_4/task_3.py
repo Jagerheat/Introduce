@@ -4,5 +4,5 @@
 
 import random
 
-some_str = ''.join((random.choice('abcdxyzpqr') for i in range(5)))
+some_str = ''.join((random.choice('abcdefghijklmnopqrstuvwxyz') for i in range(5)))
 print(some_str)

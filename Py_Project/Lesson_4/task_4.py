@@ -1,11 +1,11 @@
-import random
+#Write a program that asks the answer for a mathematical expression, 
+#hecks whether the user is right or wrong, and then responds with a message accordingly.
+print("What is 6 * 5?")
+answer = input()
+answer = int(answer)
+if answer == 30:
+	print("Good")
+else:
+	print("Mmmmm, bad")
 
-while True:
-	num1 = random.randint(0, 100)
-	num2 = random.randint(0, 100)
-	answer = input(f'Insert answer {num1} + {num2} :')
-	if answer == str(num1 + num2):
-		print('Great, catch your cookie')
-		break
-	else:
-		print('Try again') 
+#Программа очень сырая(не могу придумать хорошое решение)
