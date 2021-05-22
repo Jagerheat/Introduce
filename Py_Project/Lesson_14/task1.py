@@ -9,7 +9,7 @@ def function_decor(func):
      
   return step_two
  
-@decorator_fun
+@function_decor
 def funct():
     print("Inside actual function")
  
